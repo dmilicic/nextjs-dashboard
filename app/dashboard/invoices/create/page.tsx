@@ -18,7 +18,7 @@ export default async function Page() {
           },
         ]}
       />
-      <Form customers={customers} action={createInvoice} />
+      <Form customers={customers} />
     </main>
   );
 }
